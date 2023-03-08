@@ -9,7 +9,7 @@
 
   </head>
   <body>
-    <section class="section">
+    <section class="section section-scroll">
     <!-- Navbar -->
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
@@ -82,7 +82,7 @@ $navbarBurgers.forEach( el => {
   </style>
 </style>
     <section 
-      class="section has-background-dark background-image" 
+      class="section section-scroll has-background-dark background-image" 
       style="background-image: url('assets/bg.jpg'); background-size: cover; position: relative; overflow: hidden;"
       id="about"
       >
@@ -99,7 +99,7 @@ $navbarBurgers.forEach( el => {
     </section>
 
     <section 
-    class="section has-background-primary-light"
+    class="section section-scroll has-background-primary-light"
     id="news"
     >
     <div class="container has-text-centered">
@@ -171,7 +171,7 @@ $navbarBurgers.forEach( el => {
         </div>
     </section>
 
-    <section class="section has-background-dark">
+    <section class="section section-scroll has-background-dark">
         <div class="container has-text-centered">
             <h1 class="title is-size-1 has-text-primary-light">Piece of the Week</h1>
             <p class="subtitle has-text-grey-light">Art/Writing selected from our archives, updated regularly.</p>
@@ -187,7 +187,7 @@ $navbarBurgers.forEach( el => {
     </section>
 
     <section 
-    class="section has-background-primary-light"
+    class="section section-scroll has-background-primary-light"
     id="links"
     >
         <!--access to past issues, links to our socials, extra info about us. -->
@@ -308,24 +308,24 @@ $navbarBurgers.forEach( el => {
         </div>
     </section>
 
-    <section class="section has-background-dark">
+    <section class="section large-section-scroll has-background-dark">
         <div class="container">
             <h1 class="title is-size-1 has-text-primary-light">
                 Our Staff
             </h1>
-            <div class="columns ">
+            <div class="columns">
                 <div class="column is-one-quarter">
                     <div class="card">
                         <div class="card-image">
                           <figure class="image">
-                            <img src="https://images.squarespace-cdn.com/content/v1/57d2135103596e6a4f7c3f76/1663916365441-55Q9C8TVXVCP8QUZ08SH/Ian+HS+staff+fall22+pic.JPG?format=300w" alt="Profile Image">
+                            <img src="assets/staff_pics/julia.jpg" alt="Profile Image">
                           </figure>
                         </div>
                         <div class="card-content">
                           <div class="media">
                             <div class="media-content">
-                              <p class="title is-4">Ian Hall</p>
-                              <p class="subtitle is-6">Editor-in-Chief</p>
+                              <p class="title is-4">Julia Cleyman</p>
+                              <p class="subtitle is-6">Julia Cleyman (she/her) is the Marketing Director for Hindsight. She is in the Leeds Business Program with an emphasis on Marketing and Data Analytics. This is her third semester in the journal but she is excited to continue her work in marketing and bringing Hindsight national. With the help of everyone on staff, she hopes to make the journal more memorable than ever. </p>
                             </div>
                           </div>
                         </div>
@@ -336,14 +336,14 @@ $navbarBurgers.forEach( el => {
                     <div class="card">
                         <div class="card-image">
                           <figure class="image">
-                            <img src="https://images.squarespace-cdn.com/content/v1/57d2135103596e6a4f7c3f76/1663916365441-55Q9C8TVXVCP8QUZ08SH/Ian+HS+staff+fall22+pic.JPG?format=300w" alt="Profile Image">
+                            <img src="assets/staff_pics/shadia.jpg" alt="Profile Image">
                           </figure>
                         </div>
                         <div class="card-content">
                           <div class="media">
                             <div class="media-content">
-                              <p class="title is-4">Ian Hall</p>
-                              <p class="subtitle is-6">Editor-in-Chief</p>
+                              <p class="title is-4">Shadia Nagati</p>
+                              <p class="subtitle is-6">Shadia Nagati joined Hindsight's staff in the spring of 2022. She’s a senior in the Environmental Studies program and serves as Managing Editor for Changing Skies, our new journal that features pieces on climate change. If she's not responding to emails, she's probably looking for bears.</p>
                             </div>
                           </div>
                         </div>
@@ -354,14 +354,14 @@ $navbarBurgers.forEach( el => {
                     <div class="card">
                         <div class="card-image">
                           <figure class="image">
-                            <img src="https://images.squarespace-cdn.com/content/v1/57d2135103596e6a4f7c3f76/1663916365441-55Q9C8TVXVCP8QUZ08SH/Ian+HS+staff+fall22+pic.JPG?format=300w" alt="Profile Image">
+                            <img src="assets/staff_pics/hall.jpeg" alt="Profile Image">
                           </figure>
                         </div>
                         <div class="card-content">
                           <div class="media">
                             <div class="media-content">
                               <p class="title is-4">Ian Hall</p>
-                              <p class="subtitle is-6">Editor-in-Chief</p>
+                              <p class="subtitle is-6">Ian Hall (he/him) is a Junior studying Anthropology and Media Production. This is his third semester on the journal staff. He started in the Spring of 2022 as the Assistant Digital Production Manager, took over as Editor in Chief in Fall 2022, and is now the Assistant Editor in Chief.</p>
                             </div>
                           </div>
                         </div>
@@ -369,32 +369,205 @@ $navbarBurgers.forEach( el => {
                       
                 </div>
                 <div class="column is-one-quarter">
-                    <div class="card">
-                        <div class="card-image">
-                          <figure class="image">
-                            <img src="https://images.squarespace-cdn.com/content/v1/57d2135103596e6a4f7c3f76/1663916365441-55Q9C8TVXVCP8QUZ08SH/Ian+HS+staff+fall22+pic.JPG?format=300w" alt="Profile Image">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-content">
-                              <p class="title is-4">Ian Hall</p>
-                              <p class="subtitle is-6">Editor-in-Chief</p>
-                            </div>
+                  <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img src="assets/staff_pics/mark.png" alt="Profile Image">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4">Mark Whooley</p>
+                            <p class="subtitle is-6">Mark Whooley is a second semester junior studying Advertising and Information Science at CU. This is his second semester working for the journal. Mark is an intern working on journal design, A/V, promotion and will assist other departments throughout the semester.
+                            </p>
                           </div>
                         </div>
                       </div>
-                      
-                </div>
+                    </div>
+                    
+              </div>
+              </div><div class="columns">
+              <div class="column is-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                      <figure class="image">
+                        <img src="assets/staff_pics/finn.jpg" alt="Profile Image">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-content">
+                          <p class="title is-4">Finn Cruit</p>
+                          <p class="subtitle is-6">Finn Cruit (he/him) is the current Music/Audio Editor at Hindsight. He is a Sophomore Music Performance Major, studying viola. He hopes to bring some music-oriented insights and contributions to Hindsight, being the only music major on staff.  </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
             </div>
+            <div class="column is-one-quarter">
+              <div class="card">
+                  <div class="card-image">
+                    <figure class="image">
+                      <img src="assets/staff_pics/mauer.jpg" alt="Profile Image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Graham Mauer</p>
+                        <p class="subtitle is-6">Graham Mauer (he/him) is a Junior studying Math and Astrophysics. This is his fourth semester on Hindsight. Aside from working as an editor, he spends his free time bothering his roommate’s cat and doing chemistry experiments.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+          </div>
+          <div class="column is-one-quarter">
+            <div class="card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img src="assets/staff_pics/chloe.jpg" alt="Profile Image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">Chloe Arroyo</p>
+                      <p class="subtitle is-6">Chloe Arroyo (she/her) is a sophomore pursuing a double major in English and Political Science on the Pre-law track. This is her second semester working with Hindsight and Changing Skies as a part of the editorial staff.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
         </div>
-    </section>
+        <div class="column is-one-quarter">
+          <div class="card">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="assets/staff_pics/andy.jpg" alt="Profile Image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Andy</p>
+                    <p class="subtitle is-6">Andy is a junior studying communications with a minor in Spanish at CU. This is his second semester working with the journal as the assistant marketing director. He is from Park City, Utah but has loved his time living in Colorado.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+      </div>
+            </div>
+        <div class="columns">
+          <div class="column is-one-quarter">
+            <div class="card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img src="assets/staff_pics/emily.jpg" alt="Profile Image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">Emily</p>
+                      <p class="subtitle is-6">Emily Calvert is the Assistant Managing Editor for Hindsight and Changing Skies. She is a Sophomore double majored in English Literature and Secondary Education. This is her first semester with Hindsight and Changing Skies, but she is excited to learn more about both journals and the process of bringing them to life. She’s looking forward to working with and learning from everyone on the journal! </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+        </div>
+        <div class="column is-one-quarter">
+          <div class="card">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="assets/staff_pics/eid.jpg" alt="Profile Image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Eid</p>
+                    <p class="subtitle is-6">Eid is a blind editor who joined Hindsight in the fall of 2021. He’s a junior majoring in English (Creative Writing). He mostly writes fiction, sometimes nonfiction, and is slowly getting into the world of poetry. He enjoys cooking and is interested in philosophy, psychology, mythology, and he nourishes his creativity from movies, courses on MasterClass, books, and music. He’s so excited to discover what the future holds!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+      </div>
+      <div class="column is-one-quarter">
+        <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img src="assets/staff_pics/estrella.jpg" alt="Profile Image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Estrella Vigil</p>
+                  <p class="subtitle is-6">Estrella Vigil is a sophomore at CU Boulder studying English Literature and minoring in business. She enjoys reading and writing poetry along with various arts and crafts such as crochet and painting–another hobby of hers includes collecting stickers and small objects. Estrella is passionate about reading and writing, and hopes to make a career out of this passion with the help of her education.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+    </div><div class="column is-one-quarter">
+          <div class="card">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="assets/staff_pics/skyler.jpg" alt="Profile Image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Skyler</p>
+                    <p class="subtitle is-6">While he is a barista on the weekends, Skyler is the InDesign Manager for Hindsight. He is a Junior pursuing degrees in both Anthropology and Creative Writing. While he was younger, Skyler performed Ballet in front of an audience. However, now he is spending his time discovering new books. His favorite genres include autobiographies, non-fiction, psychology, and romance.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+      </div>
+      </div>
+      <div class="columns">
+        <div class="column is-one-quarter">
+          <div class="card">
+              <div class="card-image">
+                <figure class="image">
+                  <img src="assets/staff_pics/campbell.jpg" alt="Profile Image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Campbell</p>
+                    <p class="subtitle is-6">Campbell Watson is currently serving as the Managing Editor of Hindsight. This is his first semester with the journal. He is a senior at CU Boulder majoring in Ecology & Evolutionary Biology, and minoring in Geography. Despite a science-focused background, he is an enthusiastic writer, a thorough editor, and enjoys helping our writers publish their best possible work.  
+                      </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+      </div>
+      </div>
+        </div>
+        </div>
+        </section>
 
     
     <style type="text/css">
     
     @media only screen and (min-width: 768px) {
-    section {
+      .large-section-scroll {
+        width: 100vw;
+        scroll-snap-align: start;
+      }
+    .section-scroll {
         height: 100vh;
         width: 100vw;
         scroll-snap-align: start;
